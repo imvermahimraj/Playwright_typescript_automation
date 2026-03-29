@@ -23,7 +23,7 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
 
         // ✅ MOVE slowMo HERE
-        headless: false,
+        headless: true,
         launchOptions: {
           slowMo: 750, 
         },
